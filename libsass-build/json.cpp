@@ -46,10 +46,12 @@
 extern "C" int snprintf(char *, size_t, const char *, ...);
 #endif
 
+#ifndef out_of_memory
 #define out_of_memory() do {                    \
     fprintf(stderr, "Out of memory.\n");    \
     exit(EXIT_FAILURE);                     \
   } while (0)
+#endif
 
 /* Sadly, strdup is not portable. */
 static char *json_strdup(const char *str)

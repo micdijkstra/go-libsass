@@ -63,7 +63,7 @@ func FontDir(path string) option {
 }
 
 // HTTPPath prefixes all sprites and generated images with this uri.
-// Enabling wellington to serve images when used in HTTP mode
+// Enabling micdijkstra to serve images when used in HTTP mode
 func HTTPPath(u string) option {
 	return func(c *sass) error {
 		c.httpPath = u

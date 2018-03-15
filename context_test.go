@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/wellington/go-libsass/libs"
+	"github.com/micdijkstra/go-libsass/libs"
 )
 
 var rerandom *regexp.Regexp

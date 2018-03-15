@@ -1,6 +1,6 @@
 package types
 
-import "github.com/wellington/spritewell"
+import "github.com/micdijkstra/spritewell"
 
 // Payloader allows a way to add spritewell information to
 // the libsass compiler/context. Payload is passed to handlers
